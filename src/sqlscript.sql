@@ -18,7 +18,7 @@ Begin
 	while @n<1000000--导入十万条相同的数据
 	begin
 		--本数据作为测试.电话号码就用中文,字节会大点,来测试excel到底能存储多少M，不够可以自己改表属性
-		Set @Sql='Insert into userInfo Values(''你好!Excel!'',''生成的单元格添加到工作表中生成的单元格添加到工作表中生成的单元格添加到工作表中生成的单元格添加到工作表中生成的单元格添加到工作表中生成的单元'',''生成的单元格添加到工作表中生成的单元格添加到工作表中生成的单元格添加到工作表中生成的单元格添加到工作表中生成的单元格添加到工作表中生成的单元'')' 
+		Set @Sql='Insert into userInfo Values(''广东云浮东升布艺'',''http://ivyy.taobao.com'',''http://weibo.com/resourceljl'')' 
 		Exec (@Sql)  
 		set @n=@n+1
 	End
